@@ -4,6 +4,7 @@ A library that allows you to open IndexedDB databases of applications based on t
 ## Using
 ```cpp
 #include <leveldb/db.h>
+#include <ChromiumIndexedDBComparator.hpp>
 
 leveldb::DB* db = nullptr;
 leveldb::Options options;
