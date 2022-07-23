@@ -1,7 +1,7 @@
 # ChromiumIndexedDBComparator
 A library that allows you to open IndexedDB databases of applications based on the Chromium engine via the levelDB C++ API.
 
-## Using
+## Usage
 ```cpp
 #include <leveldb/db.h>
 #include <ChromiumIndexedDBComparator.hpp>
